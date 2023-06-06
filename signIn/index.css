@@ -1,0 +1,61 @@
+.date{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    border:1px solid #000000;    
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    padding:10px;
+    font-weight:bold;
+    font-size:26px;
+    margin: 10px;
+    background:lightslategrey;
+
+}
+.navbar {
+    position: relative;    
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.navbar-brand {
+    color: white;
+    font-size: 800px;
+    margin-left:48%;
+    font-family:cursive;   
+}
+
+.heading{
+    margin-top: 50px;
+    font-family:cursive;
+}
+
+.editbtn {
+padding: 14px;
+    background: salmon;
+    border: none;
+    float: left;
+   
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    
+}
+
+.closebtn{
+ position: relative;
+right: 0;
+top: 0;
+padding: 12px;
+background-color: black;
+float: left;
+border:none;
+cursor: pointer;
+color: white;
+}

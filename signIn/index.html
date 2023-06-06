@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Leti sign in and out form</title>
+    <link rel="stylesheet" href="index.css">
+    <link type="text/css" rel="stylesheet" href="dist/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="dist/css/style.css">
+    <link type="text/css" rel="stylesheet" href="dist/css/_modal.scss">
+
+</head>
+
+<body onload="renderTime()">
+    <nav class="navbar navbar" style="background-color:#a80e3d">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><b style="font-size: 40px;">LETI ARTS</b></a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid"> <div class="date" id="currentdate"></div></div>
+   
+    <div id="wrapper">
+        <div class="container-fluid">
+            <form role="form" id="timesheet">
+                <table class="table table-condensed table-striped" id="myTable">
+                    <thead class="thead-dark">
+                        <tr><p ><h5 class="heading">Please fill in the following entry</h5></p></tr>
+                        <th> NAME</th>
+                        <th>SIGN IN</th>
+                        <th>TIME</th>
+                        <th>SIGN OUT</th>
+                        <th>TIME</th>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input class="Name" id="name" type="text" placeholder="NAME">
+                            </td>
+                            <td>
+                                <input class="signin" id="signIn" type="checkbox">
+                            </td>
+                            <td>
+                                <input class="start" type="text" id="time" placeholder="HH:MM">
+                            </td>
+                            <td>
+                                <input class="signout" id="signOut" type="checkbox">
+                            </td>
+                            <td>
+                                <input class="end" id="ctime" type="text" placeholder="HH:MM">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <button type="button" id="add" onclick="newElement()" class="btn btn-success" style="float:right; margin-bottom: 40px">Submit</button>
+
+            </form>
+
+            <!-- <div class="block">
+                <form id="timelist">
+                    <table class="span4 table table-striped" id="todoList">
+
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>NAME</th>
+                                <th>SIGN IN</th>
+                                <th>TIME</th>
+                                <th>SIGN OUT</th>
+                                <th>TIME</th>
+                            </tr>
+                        </thead>
+                       
+                    </table>
+                </form>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- <footer>
+        <p>&copy; LETI ARTS 2018</p>
+    </footer> -->
+   
+    <script src="main.js"></script>
+</body>
+
+</html>
