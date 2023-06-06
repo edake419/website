@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="with=device-width, iniitial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Push</title>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/alertify.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="dist/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="dist/css/style.css">
+    <link type="text/css" rel="stylesheet" href="dist/css/_modal.scss">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar" style="background:#a80e3d">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    <b>Push</b>
+                </a>
+            </div>
+            <div class="navbar-header navbar-right" style="color:white">
+                <form role="form" id="logInform">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email">
+                                <span id="emailid" class="text-danger font-weight-bold"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5" >
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd">
+                                <span id="pwdid" class="text-danger font-weight-bold"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success" style="margin-top:30px;margin-bottom:0;">Log In</button>
+                            </div>
+                        </div>img
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="wrapper" style="background-color:#edf0f5">
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6" style="margin-top:40px">
+                        <h2>
+                            Connect with friends and the
+                            <br> world around you on Push
+                        </h2>
+
+                        <div class="content-left">
+                            <div class>
+                                <img src="newsfeed.png" class="img-responsive">
+                                <b>See photos and updates </b>from friends in News Feed
+                            </div>
+
+                            <div class>
+                                <img src="timeline.png" class="img-responsive">
+                                <b>Share what's new </b> in your life on your Timeline.
+                            </div>
+
+                            <div class>
+                                <img src="pshsearch.png" class="img-responsive">
+                                <b>Find more</b>of what you're looking for with Push Search.
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2 style="margin-top:20px">Sign Up</h2>
+
+                        <form role="form" id="contactForm" >
+
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="fname" placeholder="First name">
+                                        <span id="fnameid" class="text-danger font-weight-bold"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="lname" placeholder="Last name">
+                                        <span id="lnameid" class="text-danger font-weight-bold"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="new_email" class="form-control" placeholder="Email">
+                                <span id="new_emailid" class="text-danger font-weight-bold"></span>
+
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="new_password" class="form-control" placeholder="New password" style="display:hidden">
+                                <span id="new_passwordid" class="text-danger font-weight-bold"></span>
+                            </div>
+
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio" id="rad1"> Female
+                                <span id="new_passwordid" class="text-danger font-weight-bold"></span>
+                            </label>
+
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio" id="rad2"> Male
+                            </label>
+
+                            <h6 class="small" style="line-height: 1.8">
+                                <p>By clicking Sign Up, you agree to our
+                                    <mark>Terms, Data Policy
+                                        <br> and Cookies Policy.</mark> You may receive SMS Notifications
+                                    <br> from us and can opt out any time.</p>
+                            </h6>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success" style="margin-top:30px;margin-bottom:0;">Sign Up</button>
+                            </div>
+                        </form>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <footer class="container-fluid" style="padding:0;">
+
+            <ul class="list-unstyled" style="background:#ddd; margin-top:15px;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <li>
+                            <a href="#!">English</a>
+                        </li>
+                    </div>
+                    <div class="col-md-2">
+                        <li>
+                            <a href="#!">Twi</a>
+                        </li>
+                    </div>
+                    <div class="col-md-2">
+                        <li>
+                            <a href="#!">Ewe</a>
+                        </li>
+                    </div>
+                    <div class="col-md-2">
+                        <li>
+                            <a href="#!">Ga</a>
+                        </li>
+                    </div>
+                    <div class="col-md-2">
+                        <li>
+                            <a href="#!">Hausa</a>
+                        </li>
+                    </div>
+                    <div class="col-md-2">
+                        <li>
+                            <a href="#!">Help</a>
+                        </li>
+                    </div>
+                </div>
+
+            </ul>
+
+            <div class="footer-copyright; text-center ">© 2018 Copyright:Push
+
+            </div>
+
+        </footer>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>       
+    <script src="sm.js"></script>
+
+</body>
+
+</html>
