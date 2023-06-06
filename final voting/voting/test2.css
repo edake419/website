@@ -1,0 +1,33 @@
+.navbar {
+    position: relative;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 800px;
+    margin-left: 48%;
+    font-family: cursive;
+}
+
+input.form-check-input {
+    width: 50px;
+    height: 50px;
+}
+
+.candidate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.candidate-picture {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+}
